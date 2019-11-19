@@ -1,6 +1,6 @@
-# PAYW Contribution Guide
+# PAYW Contributing Guidelines
 
-Please follow this guide when you contribute to PAYW software.
+Please follow these guides when you are trying to contribute to PAYW software.
 
 ## Git commit message
 
