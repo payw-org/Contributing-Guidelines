@@ -10,7 +10,7 @@ We **_prefer English over Korean_** due to its globally high usage and impact. S
 
 Keep your commit messages follow the styles below to improve readability and consistency. Generally there are two acceptable styles of commit message.
 
-### commit type: what you did in prese
+### commit type: what you did in present-tense, imperative-style
 
 Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and [here](https://seesparkbox.com/foundry/semantic_commit_messages) for more information.
 
