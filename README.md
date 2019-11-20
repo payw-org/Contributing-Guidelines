@@ -42,3 +42,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 
 - Update README.md
 - Add assets
+
+## Code Formatting
+
+Keep your codes clean and consistent using code formatters and linters.
