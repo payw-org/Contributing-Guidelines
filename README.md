@@ -30,13 +30,13 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 
 **Examples**
 
-- chore: add Oyster build script
-- docs: explain hat wobble
-- feat: add beta sequence
-- fix: remove broken confirmation message
-- refactor: share logic between 4d3d3d3 and flarhgunnstow
-- style: convert tabs to spaces
-- test: ensure Tayne retains clothing
+- `chore: add Oyster build script`
+- `docs: explain hat wobble`
+- `feat: add beta sequence`
+- `fix: remove broken confirmation message`
+- `refactor: share logic between 4d3d3d3 and flarhgunnstow`
+- `style: convert tabs to spaces`
+- `test: ensure Tayne retains clothing`
 
 > You can also use other types like `misc:`, `design:`, `types:`, `deps:` or whatever that fit well with your works.
 
@@ -44,8 +44,8 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 
 **Examples**
 
-- Update README.md
-- Add assets
+- `Update README.md`
+- `Add assets`
 
 ## Pull Requests
 
