@@ -10,6 +10,12 @@ We **_prefer English over Korean_** due to its globally high usage and impact. S
 
 Keep your codes clean and consistent using code formatters and linters. Most of the time formatting and linting would already have been set by default in each repository. And sometimes you should use the specific code editor to match the configuration.
 
+## Code Editor
+
+If there exists a specific code editor configuration inside a repository, we recommend you to use that editor. For example, if there is `.vscode` folder, please use **Visual Studio Code**. Or if there is `.idea` folder, please use **JetBrains**' IDE.
+
+> Most of the time we use Visual Studio Code
+
 ## Git commit messages
 
 Generally there are two acceptable styles of commit message.
@@ -27,6 +33,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 - refactor (refactoring production code)
 - style (formatting, missing semi colons, etc; no code change)
 - test (adding missing tests, refactoring tests; no production code change)
+- deps (anything related to dependencies)
 
 **Examples**
 
@@ -37,6 +44,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 - `refactor: share logic between 4d3d3d3 and flarhgunnstow`
 - `style: convert tabs to spaces`
 - `test: ensure Tayne retains clothing`
+- `deps: bump dependencies`
 
 > You can also use other types like `misc:`, `design:`, `types:`, `deps:` or whatever that fit well with your works.
 
