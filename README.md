@@ -46,7 +46,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 - `test: ensure Tayne retains clothing`
 - `deps: bump dependencies`
 
-> You can also use other types like `misc:`, `design:`, `types:`, `deps:` or whatever that fit well with your works.
+> You can also use other types like `misc:`, `design:`, `types:` or whatever that fit well with your works.
 
 ### Start with a present-tense verb in imperative-style with a first character in uppercase
 
