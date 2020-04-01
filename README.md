@@ -6,19 +6,62 @@ Please follow these guidelines when you are trying to contribute to PAYW softwar
 
 We **_prefer English over Korean_** due to its globally high usage and impact. So it is strongly recommended to use English throughout your development routine. Don't worry about your bad English. We don't judge any kind of your grammar or language structure including ours. However, it is important to make sure that each sentence you wrote should be easily understandable and has an exact atomic meaning without ambiguity.
 
-## Code Formatting
-
-Keep your codes clean and consistent using code formatters and linters. Most of the time formatting and linting would already have been set by default in each repository. And sometimes you should use the specific code editor to match the configuration.
-
-## Code Editor
+## Code editor
 
 If there exists a specific code editor configuration inside a repository, we recommend you to use that editor. For example, if there is `.vscode` folder, please use **Visual Studio Code**. Or if there is `.idea` folder, please use **JetBrains**' IDE.
 
-> Most of the time we use Visual Studio Code
+## Code formatting
+
+Keep your codes clean and **_consistent_** using code formatters and linters. Most of the time formatting and linting would've already been set by default in each repository. And sometimes you should use the specific code editor to match the configuration.
+
+## Naming
+
+### Casing
+
+**Files**
+
+| Language   | Case         | Example          |
+| ---------- | ------------ | ---------------- |
+| JS/TS      | `kebab-case` | `get-state.ts`   |
+| components | `PascalCase` | `Navigation.tsx` |
+
+**HTML/CSS**
+
+- `kebab-case`
+
+**JavaScript/TypeScript**
+
+| Type    | Case         |
+| ------- | ------------ |
+| classes | `PascalCase` |
+| others  | `camelCase`  |
+
+**React/Vue Components**
+
+- `PascalCase`
+
+**MySQL table attributes**
+
+- `snake_case`
+
+### Do naming as long as enough to explain
+
+### Make naturally readable
+
+Always prefix functions and methods with a verb. Then sequentially make the name like a sentence.
+
+### Booleans
+
+If a variable is a boolean, prefix the variable name with `is`. For example,
+
+```ts
+let isAvailable = false
+let isGoingTo
+```
 
 ## Git commit messages
 
-Generally there are two acceptable styles of commit message.
+Generally there are two acceptable styles of commit message. We follow the best conventions to keep a git repository and its history as neat as possible.
 
 ### commit type: what you did in present-tense, imperative-style
 
@@ -27,7 +70,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 **Available types**
 
 - chore (updating grunt tasks etc; no production code change)
-- docs (changes to documentation)
+- docs(or doc) (changes to documentation)
 - feat (new feature)
 - fix (bug fix)
 - refactor (refactoring production code)
@@ -38,7 +81,7 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 **Examples**
 
 - `chore: add Oyster build script`
-- `docs: explain hat wobble`
+- `doc: explain hat wobble`
 - `feat: add beta sequence`
 - `fix: remove broken confirmation message`
 - `refactor: share logic between 4d3d3d3 and flarhgunnstow`
