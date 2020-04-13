@@ -1,6 +1,6 @@
 # PAYW Contributing Guidelines
 
-Please follow these guidelines when you are trying to contribute to PAYW software.
+Please follow these guidelines when you are trying to contribute to PAYW software. Many parts are related to JavaScript/TypeScript because we mostly use them in our project.
 
 ## Language
 
@@ -46,24 +46,65 @@ Keep your codes clean and **_consistent_** using code formatters and linters. Mo
 
 ### Do naming as long as enough to explain
 
-### Make naturally readable
+Don't worry about longer variable names. Eventually they're going to be mangled and ultimately shortened by compressors or obfuscators. It is important to make the variable names meaningful so that anyone can understand what those are doing without reading the whole documentation.
 
-Always prefix functions and methods with a verb. Then sequentially make the name like a sentence.
+```ts
+const someValuesDifferentFromPreviousOne = {}
+
+function hastilyRunAwayWhenThereIsMonsterBehindMe() {}
+```
+
+> These are some jokey examples and we are not saying you have to do like above.
 
 ### Booleans
 
-If a variable is a boolean, prefix the variable name with `is`. For example,
+If a variable is a boolean, prefix the variable name with `is`.
+
+For example,
 
 ```ts
 let isAvailable = false
-let isGoingTo
+let isGoingToJump = true
+```
+
+### Make naturally readable
+
+Functions are things **doing** something. So try to prefix functions and methods with a verb. Then sequentially make the name them like a sentence.
+
+For example,
+
+```ts
+function sayHello() {}
+const sayGoodbye = () => {}
+
+class Baby {
+  isCute = true
+
+  willGrowUp() {}
+}
+```
+
+## Git branch names
+
+Categorize by a slash(`/`) then concatenate with a dash(`-`).
+
+For example,
+
+```
+feat/fire-alarm
+
+feat/swimming-pool
+
+refactor/rename-variables
+
+fix/wrong-type-declarations
 ```
 
 ## Git commit messages
 
-Generally there are two acceptable styles of commit message. We follow the best conventions to keep a git repository and its history as neat as possible.
+Generally there are two acceptable styles of commit message. We follow the best conventions to keep a git repository and its history as neat and consistent as possible.
 
-### commit type: what you did in present-tense, imperative-style
+### `commit type: what you did in present-tense, imperative-style`
 
 Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and [here](https://seesparkbox.com/foundry/semantic_commit_messages) for more information.
 
@@ -100,13 +141,13 @@ Refer to [here](http://karma-runner.github.io/0.10/dev/git-commit-msg.html) and 
 
 ## Pull Requests
 
+When you make a pull request, explain what you did and what has been changed in detail.
+
 ## Versioning
 
 We are following the [SemVer](https://semver.org/) but in a much simpler and restricted way.
 
-### Backwards Compatible
-
-It means that your code written on a new version should run on the previous backwards compatible versions without any modification.
+**Backwards Compatible** means that your code written on a new version should run on the previous backwards compatible versions without any modification.
 
 ### x.y.Z (Patch version)
 
