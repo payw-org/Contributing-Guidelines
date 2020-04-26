@@ -14,7 +14,7 @@ If there exists a specific code editor configuration inside a repository, we rec
 
 Keep your codes clean and **_consistent_** using code formatters and linters. Most of the time formatting and linting would've already been set by default in each repository. And sometimes you should use the specific code editor to match the configuration.
 
-## Naming
+## Code Style
 
 ### Casing
 
@@ -83,6 +83,41 @@ class Baby {
   willGrowUp() {}
 }
 ```
+
+### Line break between different scopes
+
+**Examples**
+
+- TypeScript
+
+```ts
+const log = console.log
+const condition = 5 < 7
+// Line break
+if (condition) {
+  log('5 is smaller than 7')
+}
+// Line break
+const people = ['Kevin', 'Harry', 'Justin']
+// Line break
+for (const person of people) {
+  log(person)
+}
+```
+
+- Sass
+
+```scss
+body {
+  display: grid;
+  // Line break
+  footer {
+    position: relative;
+  }
+}
+```
+
+> Two or more sequential line breaks are not allowed by Prettier. They will be automatically reduced to one.
 
 ## Git branch names
 
