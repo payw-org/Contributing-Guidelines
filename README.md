@@ -56,17 +56,6 @@ function hastilyRunAwayWhenThereIsMonsterBehindMe() {}
 
 > These are some jokey examples and we are not saying you have to do like above.
 
-### Booleans
-
-If a variable is a boolean, prefix the variable name with `is`.
-
-For example,
-
-```ts
-let isAvailable = false
-let isGoingToJump = true
-```
-
 ### Make naturally readable
 
 Functions are things **doing** something. So try to prefix functions and methods with a verb. Then sequentially make the name them like a sentence.
@@ -83,6 +72,25 @@ class Baby {
   willGrowUp() {}
 }
 ```
+
+### Booleans
+
+If a variable is a boolean, prefix the variable name with verbs like `is` or `has` that implicates two states(`true` or `false`) of what it's saying.
+
+For example,
+
+```ts
+let isAvailable = false
+let isGoingToJump = true
+
+let hasWeapon = true
+let hasGone = false
+
+let willChange = true
+let willDisappear = false
+```
+
+> Again, the same discipline applies here to make them naturally readable.
 
 ### Line break between different scopes
 
