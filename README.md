@@ -54,11 +54,11 @@ const someValuesDifferentFromPreviousOne = {}
 function hastilyRunAwayWhenThereIsMonsterBehindMe() {}
 ```
 
-> These are some jokey examples and we are not saying you have to do like above.
+> These are some jokey examples and we are not saying you always have to do like above.
 
 ### Make naturally readable
 
-Functions are things **doing** something. So try to prefix functions and methods with a verb. Then sequentially make the name them like a sentence.
+Functions are things **doing** something. So try to prefix functions and methods with a verb. Then sequentially make them readable like a sentence.
 
 For example,
 
@@ -69,7 +69,7 @@ const sayGoodbye = () => {}
 class Baby {
   isCute = true
 
-  willGrowUp() {}
+  growUp() {}
 }
 ```
 
