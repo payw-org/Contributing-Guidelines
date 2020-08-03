@@ -54,7 +54,7 @@ const someValuesDifferentFromPreviousOne = {}
 function hastilyRunAwayWhenThereIsMonsterBehindMe() {}
 ```
 
-> These are some jokey examples and we are not saying you always have to do like above.
+> These are some jokey examples and it doesn't mean you always have to do like this.
 
 ### Make naturally readable
 
