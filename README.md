@@ -46,7 +46,7 @@ Keep your codes clean and **_consistent_** using code formatters and linters. Mo
 
 ### Do naming as long as enough to explain
 
-Don't worry about longer variable names. Eventually they're going to be mangled and ultimately shortened by compressors or obfuscators. It is important to make the variable names meaningful so that anyone can understand what those are doing without reading the whole documentation.
+Don't worry about longer variable names. Eventually they're going to be mangled and ultimately shortened by compressors or obfuscators. Rather, it is important to make the variable names meaningful so that anyone can understand what those are doing without reading the whole documentation.
 
 ```ts
 const someValuesDifferentFromPreviousOne = {}
